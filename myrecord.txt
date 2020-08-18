@@ -1,4 +1,4 @@
-﻿
+
 
 valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --run-libc-freeres=yes --error-limit=no --log-file=./valgrind_report.log ./GameServer
 
@@ -87,7 +87,10 @@ echo chat type=2 name=s10011.都是我弟弟 str=\'//testchongzhi act=finishallz
 echo chat type=2 name=s10011.陆月生 str=\'//fetch id=9800 num=200\' >> sessionserver.fifo 
 echo chat type=2 name=s10011.都是我弟弟 str=\'//fetch id=1003116 jpstar=2\' >> sessionserver.fifo
 
+echo chat type=2 name=s19174.魔法哥哥 str=\'//alliance act=session opt=9 param=0\' >> sessionserver.fifo//退当前国家
+echo chat type=2 name=s19174.魔法哥哥 str=\'//alliance act=session opt=3 param=3\' >> sessionserver.fifo//加入指定国家
 
+1940905787590
 
 
 echo chat type=2 name=s10011.球星蔡徐坤 str=\'//fetch id=9999901 num=10000\' >> sessionserver.fifo
