@@ -1,0 +1,3 @@
+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
+
+示例： git clone https://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@github.com/cj1989928/dream.git
